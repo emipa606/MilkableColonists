@@ -1,0 +1,554 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName="Human"]/comps</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Human"]</xpath>
+        <value>
+          <comps />
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/AlienRace.ThingDef_AlienRace[
+						 defName="Alien_Callistan" or
+						 defName="Alien_Astoriel" or
+						 defName="Fantasy_Goblin" or
+						 defName="LotRD_DwarfStandardRace" or
+						 defName="LotRE_ElfStandardRace" or
+						 defName="LotRH_HobbitStandardRace" or
+						 defName="Alien_Orassan" or
+						 defName="RGK_Race_Ratty" or 
+						 defName="Ratkin" or
+						 defName="Alien_Twilek" or 
+						 defName="Alien_Zabrak" or 
+						 defName="Avali" or 
+						 defName="Alien_Argonian" or
+						 defName="Naga" or
+						 defName="Alien_Asari_Base" or
+						 defName="Alien_Eldar" or
+						 defName="Alien_Kroot" or
+						 defName="Alien_Ork" or
+						 defName="Alien_Tau" or
+						 defName="Alien_Vespid" or
+						 defName="Alien_Terran" or
+						 defName="Alien_Sororitas" or
+						 defName="Alien_Salamander" or
+						 defName="Alien_Astartes" or
+						 defName="Alien_Guevesa" or
+						 defName="Alien_Krieg" or
+						 defName="Alien_Valhallan" or
+						 defName="Alien_Ferrex" or
+						 defName="Alien_Xenn" or
+						 defName="Alien_Leeani" or
+						 defName="Alien_Fennex" or
+						 defName="Alien_Frijjid" or
+						 defName="Alien_Gnoll" or
+						 defName="Alien_Drow_Otto" or
+						 defName="Alien_Mantodean" or
+				         defName="Android1Tier" or
+						 defName="Android2Tier" or
+						 defName="Android3Tier" or
+						 defName="Android4Tier" or
+						 defName="Android5Tier" or
+						 defName="Alien_Crystalloid" or
+						 defName="Arachne" or
+						 defName="Alien_Wolvx" or
+                         defName="AFerian" or		
+                         defName="Alien_Cutebold" or	
+						 defName="Alien_Orc" or
+						 defName="DesignerMatesXH" or
+						 defName="ScaleManXH" or
+						 defName="SoldiermorphXH" or
+						 defName="WolfManXH" or
+						 defName="Dragon_Kilhn" or
+						 defName="Alien_Cassowary" or
+						 defName="Alien_Chicken" or
+						 defName="Alien_Dodo" or
+						 defName="Alien_Owl" or
+						 defName="Alien_Parrot" or
+						 defName="Alien_Penguin" or
+						 defName="Alien_Vulture" or
+						 defName="DRNTF_Race" or
+						 defName="Alien_ElderThing_Race_Standard" or
+						 defName="StarWarsRaces_Twilek" or
+						 defName="StarWarsRaces_Wookie" or
+						 defName="StarWarsRaces_Ewok" or
+						 defName="StarWarsRaces_Rodian" or	
+						 defName="Apini" or
+						 defName="Azuri" or							 
+						 defName="AlienQuarian" or
+						 defName="Alien_Yabil" or
+						 defName="Alien_Equium" or
+						 defName="BearMan" or
+						 defName="CamelMan" or
+						 defName="WolfMan" or
+						 defName="ElephantMan" or
+						 defName="ElkMan" or
+						 defName="FoxMan" or
+						 defName="GazelleMan" or
+						 defName="LynxMan" or
+						 defName="PigMan" or
+						 defName="RaccoonMan" or
+						 defName="WoW_BloodElf" or
+						 defName="WoW_Forsaken" or
+						 defName="WoW_HighElf" or
+						 defName="WoW_Human" or
+						 defName="WoW_NightElf" or
+						 defName="WoW_Orc" or
+						 defName="WoW_Troll" or
+						 defName="KIJIN_Race" or
+						 defName="Alien_Daemonette" or
+						 defName="Alien_Slaaneshi" or
+						 defName="Alien_SlaaPrince" or
+						 defName="Alien_Dryad" or
+						 defName="Alien_Skaven" or
+						 defName="Alien_HornedSkaven" or
+						 defName="Alien_SkavenStorm" or
+						 defName="Alien_Hisa" or
+						 defName="Alien_Kija" or
+						 defName="RRY_Alien_Yautja" or
+						 defName="Thrumbo_Race" or
+						 defName="Avian" or
+						 defName="BlueMagmaRace" or
+						 defName="MagmaRace" or
+						 defName="MGDragon_Race"]/comps</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/AlienRace.ThingDef_AlienRace[
+						 defName="Alien_Callistan" or
+						 defName="Alien_Astoriel" or
+						 defName="Fantasy_Goblin" or
+						 defName="LotRD_DwarfStandardRace" or
+						 defName="LotRE_ElfStandardRace" or
+						 defName="LotRH_HobbitStandardRace" or
+						 defName="Alien_Orassan" or
+						 defName="RGK_Race_Ratty" or 
+						 defName="Ratkin" or						 
+						 defName="Alien_Twilek" or 
+						 defName="Alien_Zabrak" or 
+						 defName="Avali" or 
+						 defName="Alien_Argonian" or
+						 defName="Naga" or
+						 defName="Alien_Asari_Base" or
+					     defName="Alien_Eldar" or
+						 defName="Alien_Kroot" or
+						 defName="Alien_Ork" or
+						 defName="Alien_Tau" or
+						 defName="Alien_Vespid" or
+						 defName="Alien_Terran" or
+						 defName="Alien_Sororitas" or
+						 defName="Alien_Salamander" or
+						 defName="Alien_Astartes" or
+						 defName="Alien_Guevesa" or
+						 defName="Alien_Krieg" or
+						 defName="Alien_Valhallan" or
+						 defName="Alien_Ferrex" or
+						 defName="Alien_Xenn" or
+						 defName="Alien_Leeani" or
+						 defName="Alien_Fennex" or
+						 defName="Alien_Frijjid" or
+						 defName="Alien_Gnoll" or
+						 defName="Alien_Drow_Otto" or	
+						 defName="Alien_Mantodean" or	
+				         defName="Android1Tier" or
+						 defName="Android2Tier" or
+						 defName="Android3Tier" or
+						 defName="Android4Tier" or
+						 defName="Android5Tier" or
+						 defName="Alien_Crystalloid" or
+						 defName="Arachne" or				
+						 defName="Alien_Wolvx" or		
+                         defName="AFerian" or		
+                         defName="Alien_Cutebold" or	
+						 defName="Alien_Orc" or			
+						 defName="DesignerMatesXH" or
+						 defName="ScaleManXH" or
+						 defName="SoldiermorphXH" or
+						 defName="WolfManXH" or		
+						 defName="Dragon_Kilhn" or	
+						 defName="Alien_Cassowary" or
+						 defName="Alien_Chicken" or
+						 defName="Alien_Dodo" or
+						 defName="Alien_Owl" or
+						 defName="Alien_Parrot" or
+						 defName="Alien_Penguin" or
+						 defName="Alien_Vulture" or	
+						 defName="DRNTF_Race" or			
+						 defName="Alien_ElderThing_Race_Standard" or	
+						 defName="StarWarsRaces_Twilek" or
+						 defName="StarWarsRaces_Wookie" or
+						 defName="StarWarsRaces_Ewok" or
+						 defName="StarWarsRaces_Rodian" or		
+						 defName="Apini" or		
+						 defName="Azuri" or								 
+						 defName="AlienQuarian" or	
+						 defName="Alien_Yabil" or						 
+						 defName="Alien_Equium" or
+						 defName="BearMan" or
+						 defName="CamelMan" or
+						 defName="WolfMan" or
+						 defName="ElephantMan" or
+						 defName="ElkMan" or
+						 defName="FoxMan" or
+						 defName="GazelleMan" or
+						 defName="LynxMan" or
+						 defName="PigMan" or
+						 defName="RaccoonMan" or
+						 defName="WoW_BloodElf" or
+						 defName="WoW_Forsaken" or
+						 defName="WoW_HighElf" or
+						 defName="WoW_Human" or
+						 defName="WoW_NightElf" or
+						 defName="WoW_Orc" or
+						 defName="WoW_Troll" or
+						 defName="KIJIN_Race" or
+						 defName="Alien_Daemonette" or
+						 defName="Alien_Slaaneshi" or
+						 defName="Alien_SlaaPrince" or
+						 defName="Alien_Dryad" or
+						 defName="Alien_Skaven" or
+						 defName="Alien_HornedSkaven" or
+						 defName="Alien_SkavenStorm" or
+						 defName="Alien_Hisa" or
+						 defName="Alien_Kija" or
+						 defName="RRY_Alien_Yautja" or
+						 defName="Thrumbo_Race" or
+						 defName="Avian" or
+						 defName="BlueMagmaRace" or
+						 defName="MagmaRace" or
+						 defName="MGDragon_Race"]</xpath>
+        <value>
+          <comps />
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Human"]/comps</xpath>
+    <value>
+      <li Class="Milk.CompProperties_MilkableHuman">
+        <milkDef>Milk</milkDef>
+        <milkIntervalDays>3</milkIntervalDays>
+        <milkAmount>12</milkAmount>
+        <milkFemaleOnly>false</milkFemaleOnly>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace/comps</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[
+						 defName="Alien_Callistan" or
+						 defName="Alien_Astoriel" or
+						 defName="Fantasy_Goblin" or
+						 defName="LotRE_ElfStandardRace" or
+						 defName="LotRH_HobbitStandardRace" or
+						 defName="Alien_Orassan" or
+						 defName="RGK_Race_Ratty" or 
+						 defName="Ratkin" or						 
+						 defName="Alien_Twilek" or 
+						 defName="Alien_Zabrak" or
+						 defName="Alien_Asari_Base" or
+						 defName="Alien_Eldar" or
+						 defName="Alien_Kroot" or
+						 defName="Alien_Ork" or
+						 defName="Alien_Tau" or
+						 defName="Alien_Vespid" or
+						 defName="Alien_Terran" or
+						 defName="Alien_Sororitas" or
+						 defName="Alien_Salamander" or
+						 defName="Alien_Astartes" or
+						 defName="Alien_Guevesa" or
+						 defName="Alien_Krieg" or
+						 defName="Alien_Valhallan" or
+						 defName="Alien_Ferrex" or
+						 defName="Alien_Xenn" or
+						 defName="Alien_Leeani" or
+						 defName="Alien_Fennex" or
+						 defName="Alien_Frijjid" or
+						 defName="Alien_Gnoll" or
+						 defName="Alien_Drow_Otto" or					
+						 defName="Arachne" or
+						 defName="Alien_Wolvx" or
+                         defName="AFerian" or	
+                         defName="Alien_Cutebold" or	
+						 defName="Alien_Orc" or				
+						 defName="DesignerMatesXH" or
+						 defName="ScaleManXH" or
+						 defName="SoldiermorphXH" or
+						 defName="WolfManXH" or		
+						 defName="Dragon_Kilhn" or		
+						 defName="DRNTF_Race" or		
+						 defName="StarWarsRaces_Twilek" or
+						 defName="StarWarsRaces_Wookie" or
+						 defName="StarWarsRaces_Ewok" or
+						 defName="StarWarsRaces_Rodian" or		
+						 defName="AlienQuarian" or		
+						 defName="Alien_Yabil" or						 
+						 defName="Alien_Equium" or
+						 defName="BearMan" or
+						 defName="CamelMan" or
+						 defName="WolfMan" or
+						 defName="ElephantMan" or
+						 defName="ElkMan" or
+						 defName="FoxMan" or
+						 defName="GazelleMan" or
+						 defName="LynxMan" or
+						 defName="PigMan" or
+						 defName="RaccoonMan" or
+						 defName="WoW_BloodElf" or
+						 defName="WoW_Forsaken" or
+						 defName="WoW_HighElf" or
+						 defName="WoW_Human" or
+						 defName="WoW_NightElf" or
+						 defName="WoW_Orc" or
+						 defName="WoW_Troll" or
+						 defName="KIJIN_Race" or
+						 defName="Alien_Daemonette" or
+						 defName="Alien_Slaaneshi" or
+						 defName="Alien_SlaaPrince" or
+						 defName="Alien_Dryad" or
+						 defName="Alien_Skaven" or
+						 defName="Alien_HornedSkaven" or
+						 defName="Alien_SkavenStorm" or
+						 defName="Alien_Hisa" or
+						 defName="Alien_Kija" or
+						 defName="RRY_Alien_Yautja" or
+						 defName="Thrumbo_Race" or
+						 defName="Avian" or
+						 defName="BlueMagmaRace" or
+						 defName="MagmaRace" or
+						 defName="MGDragon_Race"]/comps</xpath>
+        <value>
+          <li Class="Milk.CompProperties_MilkableHuman">
+            <milkDef>Milk</milkDef>
+            <milkIntervalDays>3</milkIntervalDays>
+            <milkAmount>12</milkAmount>
+            <milkFemaleOnly>false</milkFemaleOnly>
+          </li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="LotRD_DwarfStandardRace"]/comps</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="LotRD_DwarfStandardRace"]/comps</xpath>
+        <value>
+          <li Class="Milk.CompProperties_MilkableHuman">
+            <milkDef>Beer</milkDef>
+            <milkIntervalDays>3</milkIntervalDays>
+            <milkAmount>5</milkAmount>
+            <milkFemaleOnly>false</milkFemaleOnly>
+          </li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="ChjAndroid"]/comps</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="ChjAndroid"]/comps</xpath>
+        <value>
+          <li Class="Milk.CompProperties_MilkableHuman">
+            <milkDef>Chemfuel</milkDef>
+            <milkIntervalDays>3</milkIntervalDays>
+            <milkAmount>10</milkAmount>
+            <milkFemaleOnly>false</milkFemaleOnly>
+          </li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[
+				         defName="Naga" or
+						 defName="Alien_Cassowary" or
+						 defName="Alien_Chicken" or
+						 defName="Alien_Dodo" or
+						 defName="Alien_Owl" or
+						 defName="Alien_Parrot" or
+						 defName="Alien_Penguin" or
+						 defName="Alien_Vulture" or 
+						 defName="Alien_Argonian" or
+						 defName="Avali"]/comps</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[
+				         defName="Naga" or
+						 defName="Alien_Cassowary" or
+						 defName="Alien_Chicken" or
+						 defName="Alien_Dodo" or
+						 defName="Alien_Owl" or
+						 defName="Alien_Parrot" or
+						 defName="Alien_Penguin" or
+						 defName="Alien_Vulture" or 
+						 defName="Alien_Argonian" or
+						 defName="Avali"]/comps</xpath>
+        <value>
+          <li Class="Milk.CompProperties_MilkableHuman">
+            <milkDef>EggChickenUnfertilized</milkDef>
+            <milkIntervalDays>3</milkIntervalDays>
+            <milkAmount>6</milkAmount>
+            <milkFemaleOnly>true</milkFemaleOnly>
+          </li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Mantodean"]/comps</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Mantodean"]/comps</xpath>
+        <value>
+          <li Class="Milk.CompProperties_MilkableHuman">
+            <milkDef>InsectJelly</milkDef>
+            <milkIntervalDays>3</milkIntervalDays>
+            <milkAmount>12</milkAmount>
+            <milkFemaleOnly>false</milkFemaleOnly>
+          </li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[
+				          defName="Android1Tier" or
+						  defName="Android2Tier" or
+						  defName="Android3Tier" or
+						  defName="Android4Tier" or
+						  defName="Android5Tier"]/comps</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[
+				          defName="Android1Tier" or
+						  defName="Android2Tier" or
+						  defName="Android3Tier" or
+						  defName="Android4Tier" or
+						  defName="Android5Tier"]/comps</xpath>
+        <value>
+          <li Class="Milk.CompProperties_MilkableHuman">
+            <milkDef>NSolution</milkDef>
+            <milkIntervalDays>3</milkIntervalDays>
+            <milkAmount>12</milkAmount>
+            <milkFemaleOnly>false</milkFemaleOnly>
+          </li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Crystalloid"]/comps</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Crystalloid"]/comps</xpath>
+        <value>
+          <li Class="Milk.CompProperties_MilkableHuman">
+            <milkDef>Crystal</milkDef>
+            <milkIntervalDays>3</milkIntervalDays>
+            <milkAmount>12</milkAmount>
+            <milkFemaleOnly>false</milkFemaleOnly>
+          </li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Call of Cthulhu - Cults</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationTest">
+          <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_ElderThing_Race_Standard"]/comps</xpath>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_ElderThing_Race_Standard"]/comps</xpath>
+          <value>
+            <li Class="Milk.CompProperties_MilkableHuman">
+              <milkDef>Cults_BlackIchorMeal</milkDef>
+              <milkIntervalDays>3</milkIntervalDays>
+              <milkAmount>1</milkAmount>
+              <milkFemaleOnly>false</milkFemaleOnly>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+    <nomatch Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationTest">
+          <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_ElderThing_Race_Standard"]/comps</xpath>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_ElderThing_Race_Standard"]/comps</xpath>
+          <value>
+            <li Class="Milk.CompProperties_MilkableHuman">
+              <milkDef>MealNutrientPaste</milkDef>
+              <milkIntervalDays>3</milkIntervalDays>
+              <milkAmount>1</milkAmount>
+              <milkFemaleOnly>false</milkFemaleOnly>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Apini" or defName="Azuri"]/comps</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Apini" or defName="Azuri"]/comps</xpath>
+        <value>
+          <li Class="Milk.CompProperties_MilkableHuman">
+            <milkDef>ApiniHoney</milkDef>
+            <milkIntervalDays>3</milkIntervalDays>
+            <milkAmount>1</milkAmount>
+            <milkFemaleOnly>false</milkFemaleOnly>
+          </li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

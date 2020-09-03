@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Lact-X.label>lact-X</Lact-X.label>
+  <Lact-X.description>A Drug that induces lactation, it also has an addictive euphoric affect. \n \n Take every 3 days for uninterrupted flow. \n \n No lactation effect on animals.</Lact-X.description>
+  <Lact-X.ingestible.ingestCommandString>Inject {0}</Lact-X.ingestible.ingestCommandString>
+  <Lact-X.ingestible.ingestReportString>Injecting {0}.</Lact-X.ingestible.ingestReportString>
+
+  <Lact-MAX.label>lact-MAX</Lact-MAX.label>
+  <Lact-MAX.description>A Drug that induces lactation permanently, it causes addiction to Lact-X. \n \n No lactation effect on animals.</Lact-MAX.description>
+  <Lact-MAX.ingestible.ingestCommandString>Inject {0}</Lact-MAX.ingestible.ingestCommandString>
+  <Lact-MAX.ingestible.ingestReportString>Injecting {0}.</Lact-MAX.ingestible.ingestReportString>
+
+
+</LanguageData>
