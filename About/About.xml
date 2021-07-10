@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Milkable Colonists (Continued)</name>
   <packageId>Mlie.MilkableColonists</packageId>
@@ -7,6 +7,7 @@
   <supportedVersions>
     <li>1.0</li>
     <li>1.2</li>
+    <li>1.3</li>
   </supportedVersions>
   <modDependencies>
     <li>
@@ -26,90 +27,108 @@
     <li>brrainz.harmony</li>
     <li>UnlimitedHugs.HugsLib</li>
   </loadAfter>
-  <description>Update of Ziehns mod
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of Ziehns mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1563793492
 
-[img]https://i.imgur.com/GYswkZ7.png[/img]
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
 
-Support-chat:
-https://invite.gg/mlie
-
-Non-steam version:
-https://github.com/emipa606/MilkableColonists
+[table]
+	[tr]
+		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/MilkableColonists][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+	[/tr]
+[/table]
 	
---- Original Description ---
-Makes colonists and prisoners milkable using a drug.
+[img]https://i.imgur.com/NOW7jU1.png[/img]
+
+[b]Will try and update to 1.1 sometime this month when I find time, I do not plan on getting the Royal DLC so support for that is not guaranteed.[/b] 
+
+[h1]Makes colonists and prisoners milkable using a drug. [/h1]
 Craft Lact-X at the Drug Lab
 Craft Lact-MAX at the Drug Lab for permanent lactation
 Compatible with pregnancy mods
 Modifiers for mod that adds breast sizes
 Does not work on animals.
 
-Safe to add to saves
-(A new drug policy is required for it to add Lact-X)
+[h1]Safe to add to saves[/h1] (A new drug policy is required for it to add Lact-X)
 
-FAQ
-Q.
-What the ♥♥♥♥?
-A.
-Randy made me do it under threat of manhunting squirrels.
+[h1]FAQ[/h1]
+[h1]Q.[/h1] [u]What the fuck?[/u]
+[h1]A.[/h1] Randy made me do it under threat of manhunting squirrels.
 
-Mod races supported
-(Let me know if you want a race added)
-If you think a race should produce something other than milk let me know!
-I have now figured out how to add conditional patches to allow for items from other mods to be added as a milkable produce, so items from other mods that aren't in the parent mod are now fair game.
-Callistan
-Astoriel
-Fantasy Goblins
-LotR Dwarf (Produces Beer)
-LotR Elf
-LotR Hobbit
-Orassan
-Ratkin
-Twilek
-Zabrak
-Androids (Produces Chemfuel)
-Avali (Produces chicken eggs, female only)
-Argonian
-Naga (Produces chicken eggs, female only)
-Asari
-Rimhammer 40k
-Ferrex
-Xenn
-Leeani
-Fenii
-Frijjid
-Gnoll
-Equium
-Drow
-Mantodean (Produces Insect Jelly)
-Android Tiers (Produces Nutrient Solution)
-Crystalloid (Produces Crystal)
-Logann
-Arachne
-Ferian
-Cutebold
-Orc Invasion
-Xenohumans
-Avian Races
-Kilhn
-Kurin
-Elder Things (Produces Nutrient Paste Meals or Black Ichor Meals if you have Cults installed)
-Star Wars Races
-Apini (Produces Honey)
-Quarian
-Yabils
-Beast Man Tribes
-Rimcraft
-Kijin
-Warhammer"ish": Dryad
-Warhammer: Daemonettes
-Warhammer: Skaven
-Hisa
-Kija - Creatures of Ki
-Yautja
-Thrumbo Race
-Humanoid Project
-Dragongirls
+[h1]Mod races supported[/h1] (Let me know if you want a race added)
+[u]If you think a race should produce something other than milk let me know![/u]
+I have now figured out how to add conditional patches to allow for items from other mods to be added as a milkable produce, so items from other mods that aren&apos;t in the parent mod are now fair game.
+[list]
+[*]Callistan
+[*]Astoriel
+[*]Fantasy Goblins
+[*]LotR Dwarf (Produces Beer)
+[*]LotR Elf
+[*]LotR Hobbit
+[*]Orassan
+[*]Ratkin
+[*]Twilek
+[*]Zabrak
+[*]Androids (Produces Chemfuel)
+[*]Avali (Produces chicken eggs, female only)
+[*]Argonian
+[*]Naga (Produces chicken eggs, female only)
+[*]Asari
+[*]Rimhammer 40k
+[*]Ferrex
+[*]Xenn
+[*]Leeani
+[*]Fenii
+[*]Frijjid
+[*]Gnoll
+[*]Equium
+[*]Drow
+[*]Mantodean (Produces Insect Jelly)
+[*]Android Tiers (Produces Nutrient Solution)
+[*]Crystalloid (Produces Crystal)
+[*]Logann
+[*]Arachne
+[*]Ferian
+[*]Cutebold
+[*]Orc Invasion
+[*]Xenohumans
+[*]Avian Races
+[*]Kilhn
+[*]Kurin
+[*]Elder Things (Produces Nutrient Paste Meals or Black Ichor Meals if you have Cults installed)
+[*]Star Wars Races
+[*]Apini (Produces Honey)
+[*]Quarian
+[*]Yabils
+[*]Beast Man Tribes
+[*]Rimcraft
+[*]Kijin
+[*]Warhammer&quot;ish&quot;: Dryad
+[*]Warhammer: Daemonettes
+[*]Warhammer: Skaven
+[*]Hisa
+[*]Kija - Creatures of Ki
+[*]Yautja
+[*]Thrumbo Race
+[*]Humanoid Project
+[*]Dragongirls
+[/list]
+
+
+[h1]Ludeon Forums[/h1] - [url=https://ludeon.com/forums/index.php?topic=46851] Link[/url]
+
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
 </description>
 </ModMetaData>
+
