@@ -79,7 +79,7 @@ namespace Milk
                 return null;
             }
 
-            return Props.displayString.Translate() + ": " + Fullness.ToStringPercent();
+            return "MilkFullness".Translate() + ": " + Fullness.ToStringPercent();
         }
     }
 }
