@@ -1,4 +1,6 @@
 ﻿using Verse;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Milk
 {
@@ -13,6 +15,19 @@ namespace Milk
         protected override HumanCompHasGatherableBodyResource GetComp(Pawn animal)
         {
             return animal.TryGetComp<CompMilkableHuman>();
+        }
+        protected override IEnumerable<HumanCompHasGatherableBodyResource> GetComps(Pawn animal)
+        {
+            List<ThingComp> comps = animal.AllComps;
+            foreach (ThingComp comp in comps)
+            {
+                if (comp is CompMilkableHuman)
+                {
+                    //Log.Message("Returned Comp");
+                    yield return (CompMilkableHuman)comp;
+                }
+            }
+            //Log.Message("Done");
         }
     }
 }
