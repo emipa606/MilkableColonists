@@ -19,6 +19,7 @@ namespace Milk
 
         // Token: 0x06000027 RID: 39
         protected abstract HumanCompHasGatherableBodyResource GetComp(Pawn animal);
+        protected abstract IEnumerable<HumanCompHasGatherableBodyResource> GetComps(Pawn pawn);
 
         // Token: 0x06000028 RID: 40 RVA: 0x00002995 File Offset: 0x00000B95
         public override IEnumerable<Thing> PotentialWorkThingsGlobal(Pawn pawn)
@@ -38,8 +39,15 @@ namespace Milk
                 return false;
             }
 
-            var comp = GetComp(pawn2);
-            if (comp == null || !comp.ActiveAndFull || pawn2 == pawn)
+            if (pawn2 == pawn)
+                return false;
+
+            bool harvest = false;
+
+            foreach (HumanCompHasGatherableBodyResource comp in GetComps(pawn2))
+                if (comp.ActiveAndFull)
+                    harvest = true;
+            if (!harvest)
             {
                 return false;
             }

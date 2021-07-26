@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <BeerFullness>Beer Fullness</BeerFullness>
+  <ChemfuelFullness>Chemfuel Fullness</ChemfuelFullness>
+  <EggFullness>Egg Fullness</EggFullness>
+  <JellyFullness>Jelly Fullness</JellyFullness>
+  <NutrientFullness>Nutrient Fullness</NutrientFullness>
+  <CrystalLength>Crystal Length</CrystalLength>
+  <IchorFullness>Ichor Fullness</IchorFullness>
+  <NutrientPasteFullness>Nutrient Paste Fullness</NutrientPasteFullness>
+  <HoneyFullness>Honey Fullness</HoneyFullness>
+  
+</LanguageData>

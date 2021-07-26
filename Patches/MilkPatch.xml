@@ -359,6 +359,7 @@
             <milkIntervalDays>3</milkIntervalDays>
             <milkAmount>5</milkAmount>
             <milkFemaleOnly>false</milkFemaleOnly>
+			<displayString>BeerFullness</displayString>
           </li>
         </value>
       </li>
@@ -378,6 +379,7 @@
             <milkIntervalDays>3</milkIntervalDays>
             <milkAmount>10</milkAmount>
             <milkFemaleOnly>false</milkFemaleOnly>
+			<displayString>ChemfuelFullness</displayString>
           </li>
         </value>
       </li>
@@ -417,6 +419,7 @@
             <milkIntervalDays>3</milkIntervalDays>
             <milkAmount>6</milkAmount>
             <milkFemaleOnly>true</milkFemaleOnly>
+			<displayString>EggFullness</displayString>
           </li>
         </value>
       </li>
@@ -436,6 +439,7 @@
             <milkIntervalDays>3</milkIntervalDays>
             <milkAmount>12</milkAmount>
             <milkFemaleOnly>false</milkFemaleOnly>
+			<displayString>JellyFullness</displayString>
           </li>
         </value>
       </li>
@@ -465,6 +469,7 @@
             <milkIntervalDays>3</milkIntervalDays>
             <milkAmount>12</milkAmount>
             <milkFemaleOnly>false</milkFemaleOnly>
+			<displayString>NutrientFullness</displayString>
           </li>
         </value>
       </li>
@@ -484,6 +489,7 @@
             <milkIntervalDays>3</milkIntervalDays>
             <milkAmount>12</milkAmount>
             <milkFemaleOnly>false</milkFemaleOnly>
+			<displayString>CrystalLength</displayString>
           </li>
         </value>
       </li>
@@ -507,6 +513,7 @@
               <milkIntervalDays>3</milkIntervalDays>
               <milkAmount>1</milkAmount>
               <milkFemaleOnly>false</milkFemaleOnly>
+			<displayString>IchorFullness</displayString>
             </li>
           </value>
         </li>
@@ -526,6 +533,7 @@
               <milkIntervalDays>3</milkIntervalDays>
               <milkAmount>1</milkAmount>
               <milkFemaleOnly>false</milkFemaleOnly>
+			<displayString>NutrientPasteFullness</displayString>
             </li>
           </value>
         </li>
@@ -546,6 +554,7 @@
             <milkIntervalDays>3</milkIntervalDays>
             <milkAmount>1</milkAmount>
             <milkFemaleOnly>false</milkFemaleOnly>
+			<displayString>HoneyFullness</displayString>
           </li>
         </value>
       </li>

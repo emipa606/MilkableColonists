@@ -2,6 +2,7 @@
 using RimWorld;
 using Verse;
 using Verse.AI;
+using System.Collections.Generic;
 
 namespace Milk
 {
@@ -20,6 +21,7 @@ namespace Milk
 
         // Token: 0x0600001A RID: 26
         protected abstract HumanCompHasGatherableBodyResource GetComp(Pawn animal);
+        protected abstract IEnumerable<HumanCompHasGatherableBodyResource> GetComps(Pawn animal);
 
         // Token: 0x0600001B RID: 27 RVA: 0x000028F5 File Offset: 0x00000AF5
         public override void ExposeData()
@@ -52,6 +54,7 @@ namespace Milk
             };
             wait.tickAction = delegate
             {
+                //Log.Message("Start");
                 var actor = wait.actor;
                 actor.skills.Learn(SkillDefOf.Animals, 0.13f);
                 gatherProgress += actor.GetStatValue(StatDefOf.AnimalGatherSpeed);
@@ -60,7 +63,13 @@ namespace Milk
                     return;
                 }
 
-                GetComp((Pawn) (Thing) job.GetTarget(TargetIndex.A)).Gathered(pawn);
+                IEnumerable < HumanCompHasGatherableBodyResource > comps = GetComps((Pawn)(Thing)job.GetTarget(TargetIndex.A));
+                //Log.Message("TestA0:" + comps.ToString());
+                foreach (HumanCompHasGatherableBodyResource comp in comps)
+                {
+                    //Log.Message("TestA1:"+((CompProperties_MilkableHuman)comp.props).displayString);
+                    comp.Gathered(pawn);
+                }   
                 actor.jobs.EndCurrentJob(JobCondition.Succeeded);
             };
             wait.AddFinishAction(delegate
@@ -75,12 +84,13 @@ namespace Milk
             wait.FailOnCannotTouch(TargetIndex.A, PathEndMode.Touch);
             wait.AddEndCondition(delegate
             {
-                if (!GetComp((Pawn) (Thing) job.GetTarget(TargetIndex.A)).ActiveAndFull)
-                {
-                    return JobCondition.Incompletable;
-                }
-
-                return JobCondition.Ongoing;
+                IEnumerable<HumanCompHasGatherableBodyResource> comps = GetComps((Pawn)(Thing)job.GetTarget(TargetIndex.A));
+                
+                //Log.Message("TestB0:" + comps.EnumerableCount().ToString()+":"+ comps.ToString());
+                foreach (HumanCompHasGatherableBodyResource comp in comps)
+                    if (comp.ActiveAndFull)
+                        return JobCondition.Ongoing;
+                return JobCondition.Incompletable;
             });
             wait.defaultCompleteMode = ToilCompleteMode.Never;
             wait.WithProgressBar(TargetIndex.A, () => gatherProgress / WorkTotal);
