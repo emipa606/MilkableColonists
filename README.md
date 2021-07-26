@@ -43,7 +43,7 @@ Does not work on animals.
 # Mod races supported
  (Let me know if you want a race added)
 [u]If you think a race should produce something other than milk let me know![/u]
-I have now figured out how to add conditional patches to allow for items from other mods to be added as a milkable produce, so items from other mods that aren&apos;t in the parent mod are now fair game.
+I have now figured out how to add conditional patches to allow for items from other mods to be added as a milkable produce, so items from other mods that aren&amp;apos;t in the parent mod are now fair game.
 
 
 - Callistan
@@ -90,7 +90,7 @@ I have now figured out how to add conditional patches to allow for items from ot
 - Beast Man Tribes
 - Rimcraft
 - Kijin
-- Warhammer&quot;ish&quot;: Dryad
+- Warhammer&amp;quot;ish&amp;quot;: Dryad
 - Warhammer: Daemonettes
 - Warhammer: Skaven
 - Hisa
@@ -117,6 +117,7 @@ I have now figured out how to add conditional patches to allow for items from ot
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 

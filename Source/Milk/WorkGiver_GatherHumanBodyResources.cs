@@ -40,13 +40,20 @@ namespace Milk
             }
 
             if (pawn2 == pawn)
+            {
                 return false;
+            }
 
-            bool harvest = false;
+            var harvest = false;
 
-            foreach (HumanCompHasGatherableBodyResource comp in GetComps(pawn2))
+            foreach (var comp in GetComps(pawn2))
+            {
                 if (comp.ActiveAndFull)
+                {
                     harvest = true;
+                }
+            }
+
             if (!harvest)
             {
                 return false;

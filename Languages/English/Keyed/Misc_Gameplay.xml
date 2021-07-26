@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <BeerFullness>Beer Fullness</BeerFullness>
   <ChemfuelFullness>Chemfuel Fullness</ChemfuelFullness>
@@ -9,5 +9,4 @@
   <IchorFullness>Ichor Fullness</IchorFullness>
   <NutrientPasteFullness>Nutrient Paste Fullness</NutrientPasteFullness>
   <HoneyFullness>Honey Fullness</HoneyFullness>
-  
 </LanguageData>

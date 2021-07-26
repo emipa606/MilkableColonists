@@ -2,7 +2,6 @@
 using RimWorld;
 using Verse;
 using Verse.AI;
-using System.Collections.Generic;
 
 namespace Milk
 {
@@ -54,7 +53,6 @@ namespace Milk
             };
             wait.tickAction = delegate
             {
-                //Log.Message("Start");
                 var actor = wait.actor;
                 actor.skills.Learn(SkillDefOf.Animals, 0.13f);
                 gatherProgress += actor.GetStatValue(StatDefOf.AnimalGatherSpeed);
@@ -63,13 +61,12 @@ namespace Milk
                     return;
                 }
 
-                IEnumerable < HumanCompHasGatherableBodyResource > comps = GetComps((Pawn)(Thing)job.GetTarget(TargetIndex.A));
-                //Log.Message("TestA0:" + comps.ToString());
-                foreach (HumanCompHasGatherableBodyResource comp in comps)
+                var comps = GetComps((Pawn) (Thing) job.GetTarget(TargetIndex.A));
+                foreach (var comp in comps)
                 {
-                    //Log.Message("TestA1:"+((CompProperties_MilkableHuman)comp.props).displayString);
                     comp.Gathered(pawn);
-                }   
+                }
+
                 actor.jobs.EndCurrentJob(JobCondition.Succeeded);
             };
             wait.AddFinishAction(delegate
@@ -84,12 +81,16 @@ namespace Milk
             wait.FailOnCannotTouch(TargetIndex.A, PathEndMode.Touch);
             wait.AddEndCondition(delegate
             {
-                IEnumerable<HumanCompHasGatherableBodyResource> comps = GetComps((Pawn)(Thing)job.GetTarget(TargetIndex.A));
-                
-                //Log.Message("TestB0:" + comps.EnumerableCount().ToString()+":"+ comps.ToString());
-                foreach (HumanCompHasGatherableBodyResource comp in comps)
+                var comps = GetComps((Pawn) (Thing) job.GetTarget(TargetIndex.A));
+
+                foreach (var comp in comps)
+                {
                     if (comp.ActiveAndFull)
+                    {
                         return JobCondition.Ongoing;
+                    }
+                }
+
                 return JobCondition.Incompletable;
             });
             wait.defaultCompleteMode = ToilCompleteMode.Never;

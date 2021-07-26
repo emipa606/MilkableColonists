@@ -1,5 +1,8 @@
 # Changelog for MilkableColonists
 
+1.0.2.0 - Inspect string now will show what resource is harvestable, thanks sah4001!
+
+
 1.0.1.0 - Mod updated for 1.3 and passed autotests
 
 
