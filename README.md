@@ -1,23 +1,14 @@
 # MilkableColonists
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Ziehns mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1563793492
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
-
-[table]
-	[tr]
-		[td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-		[td]https://github.com/emipa606/MilkableColonists]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-	[/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 
 **Will try and update to 1.1 sometime this month when I find time, I do not plan on getting the Royal DLC so support for that is not guaranteed.** 
@@ -43,7 +34,7 @@ Does not work on animals.
 # Mod races supported
  (Let me know if you want a race added)
 [u]If you think a race should produce something other than milk let me know![/u]
-I have now figured out how to add conditional patches to allow for items from other mods to be added as a milkable produce, so items from other mods that aren&amp;apos;t in the parent mod are now fair game.
+I have now figured out how to add conditional patches to allow for items from other mods to be added as a milkable produce, so items from other mods that aren&apos;t in the parent mod are now fair game.
 
 
 - Callistan
@@ -90,7 +81,7 @@ I have now figured out how to add conditional patches to allow for items from ot
 - Beast Man Tribes
 - Rimcraft
 - Kijin
-- Warhammer&amp;quot;ish&amp;quot;: Dryad
+- Warhammer"ish": Dryad
 - Warhammer: Daemonettes
 - Warhammer: Skaven
 - Hisa
@@ -107,7 +98,7 @@ I have now figured out how to add conditional patches to allow for items from ot
  - https://ludeon.com/forums/index.php?topic=46851] Link
 
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 

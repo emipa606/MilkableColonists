@@ -1,30 +1,25 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using Verse;
 
-namespace Milk
+namespace Milk;
+
+public class JobDriver_MilkHuman : JobDriver_GatherHumanBodyResources
 {
-    // Token: 0x0200000A RID: 10
-    public class JobDriver_MilkHuman : JobDriver_GatherHumanBodyResources
+    protected override float WorkTotal => 400f;
+
+    protected override HumanCompHasGatherableBodyResource GetComp(Pawn animal)
     {
-        // Token: 0x17000011 RID: 17
-        // (get) Token: 0x06000022 RID: 34 RVA: 0x00002975 File Offset: 0x00000B75
-        protected override float WorkTotal => 400f;
+        return animal.TryGetComp<CompMilkableHuman>();
+    }
 
-        // Token: 0x06000023 RID: 35 RVA: 0x00002965 File Offset: 0x00000B65
-        protected override HumanCompHasGatherableBodyResource GetComp(Pawn animal)
+    protected override IEnumerable<HumanCompHasGatherableBodyResource> GetComps(Pawn animal)
+    {
+        var comps = animal.AllComps;
+        foreach (var comp in comps)
         {
-            return animal.TryGetComp<CompMilkableHuman>();
-        }
-
-        protected override IEnumerable<HumanCompHasGatherableBodyResource> GetComps(Pawn animal)
-        {
-            var comps = animal.AllComps;
-            foreach (var comp in comps)
+            if (comp is CompMilkableHuman human)
             {
-                if (comp is CompMilkableHuman human)
-                {
-                    yield return human;
-                }
+                yield return human;
             }
         }
     }
