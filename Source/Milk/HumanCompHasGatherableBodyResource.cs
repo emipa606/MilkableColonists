@@ -91,7 +91,7 @@ public abstract class HumanCompHasGatherableBodyResource : ThingComp
     {
         if (!Active)
         {
-            Log.Error(doer + " gathered body resources while not Active: " + parent);
+            Log.Error($"{doer} gathered body resources while not Active: {parent}");
         }
 
         if (!Rand.Chance(doer.GetStatValue(StatDefOf.AnimalGatherYield)))

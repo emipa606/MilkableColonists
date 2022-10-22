@@ -8,6 +8,7 @@
     <li>1.0</li>
     <li>1.2</li>
     <li>1.3</li>
+    <li>1.4</li>
   </supportedVersions>
   <modDependencies>
     <li>
@@ -23,6 +24,8 @@
   <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Ziehns mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1563793492
+
+- Removed legacy HugsLib requirement
 
 [img]https://i.imgur.com/pufA0kM.png[/img]
 

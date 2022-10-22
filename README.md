@@ -5,6 +5,8 @@
 Update of Ziehns mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1563793492
 
+- Removed legacy HugsLib requirement
+
 ![Image](https://i.imgur.com/pufA0kM.png)
 
 	
