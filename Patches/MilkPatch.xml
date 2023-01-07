@@ -121,6 +121,12 @@
 						 defName="Avian" or
 						 defName="BlueMagmaRace" or
 						 defName="MagmaRace" or
+						 defName="LittleFairy_Pawn" or
+						 defName="Alien_Moyo" or
+						 @Name="BasePony" or
+						 @Name="BaseKiri" or
+						 @Name="BaseGrif" or
+						 @Name="BaseChan" or
 						 defName="MGDragon_Race"]/comps</xpath>
         <success>Invert</success>
       </li>
@@ -227,6 +233,12 @@
 						 defName="Avian" or
 						 defName="BlueMagmaRace" or
 						 defName="MagmaRace" or
+						 defName="LittleFairy_Pawn" or
+						 defName="Alien_Moyo" or
+						 @ParentName="BasePony" or
+						 @ParentName="BaseKiri" or
+						 @ParentName="BaseGrif" or
+						 @ParentName="BaseChan" or
 						 defName="MGDragon_Race"]</xpath>
         <value>
           <comps />
@@ -333,6 +345,12 @@
 						 defName="Avian" or
 						 defName="BlueMagmaRace" or
 						 defName="MagmaRace" or
+						 defName="LittleFairy_Pawn" or
+						 defName="Alien_Moyo" or
+						 @ParentName="BasePony" or
+						 @ParentName="BaseKiri" or
+						 @ParentName="BaseGrif" or
+						 @ParentName="BaseChan" or
 						 defName="MGDragon_Race"]/comps</xpath>
         <value>
           <li Class="Milk.CompProperties_MilkableHuman">
