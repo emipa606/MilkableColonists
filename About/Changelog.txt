@@ -1,5 +1,8 @@
 # Changelog for MilkableColonists
 
+1.4.3 - Should not throw errors whn loaded without Biotech
+
+
 1.4.2 - Now recognizes the lactating hediff in Biotech and also added a few races
 
 
