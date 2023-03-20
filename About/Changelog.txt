@@ -1,5 +1,8 @@
 # Changelog for MilkableColonists
 
+1.4.4 - Added pathch for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2455173560]Anthro Race[/url]
+
+
 1.4.3 - Should not throw errors whn loaded without Biotech
 
 

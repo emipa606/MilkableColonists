@@ -123,6 +123,7 @@
 						 defName="MagmaRace" or
 						 defName="LittleFairy_Pawn" or
 						 defName="Alien_Moyo" or
+						 defName="Anthro" or
 						 @Name="BasePony" or
 						 @Name="BaseKiri" or
 						 @Name="BaseGrif" or
@@ -235,6 +236,7 @@
 						 defName="MagmaRace" or
 						 defName="LittleFairy_Pawn" or
 						 defName="Alien_Moyo" or
+						 defName="Anthro" or
 						 @ParentName="BasePony" or
 						 @ParentName="BaseKiri" or
 						 @ParentName="BaseGrif" or
@@ -347,6 +349,7 @@
 						 defName="MagmaRace" or
 						 defName="LittleFairy_Pawn" or
 						 defName="Alien_Moyo" or
+						 defName="Anthro" or
 						 @ParentName="BasePony" or
 						 @ParentName="BaseKiri" or
 						 @ParentName="BaseGrif" or
