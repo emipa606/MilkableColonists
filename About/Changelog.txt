@@ -1,5 +1,8 @@
 # Changelog for MilkableColonists
 
+1.4.6 - Added support for some more mods
+
+
 1.4.5 - Added support for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2174717519]Vulpes - Adorable Foxes[/url]
 
 

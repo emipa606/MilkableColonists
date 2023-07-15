@@ -115,4 +115,4 @@ I have now figured out how to add conditional patches to allow for items from ot
 -  If you have the solution for a problem, please post it to the GitHub repository.
 
 
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2218407878]Last updated 2023-07-01
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2218407878]Last updated 2023-07-15
