@@ -7,6 +7,25 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1563793492
 
 - Removed legacy HugsLib requirement
 
+Added races
+
+
+- Moyos 
+- RimPonk
+- Little faires
+- Paniel the Automata
+- Mofy the WhiteFox in a Cold Land Race
+- Resurreviewy the nxious about immortality race
+- Sweety the MilkChocolate Soul Race
+- Glassy the Earth Running Race
+- LegacyFairy the forgotten technology race
+- MagiaPlant the Forgotten Magical race
+- Forgotty the Forgotten Cyborg race
+- Maddy the Wears Madness race
+- The Human Hive 3
+
+
+
 ![Image](https://i.imgur.com/pufA0kM.png)
 
 	
@@ -92,9 +111,6 @@ I have now figured out how to add conditional patches to allow for items from ot
 - Thrumbo Race
 - Humanoid Project
 - Dragongirls
-- Moyos 
-- RimPonk
-- Little faires
 
 
 
@@ -115,4 +131,6 @@ I have now figured out how to add conditional patches to allow for items from ot
 -  If you have the solution for a problem, please post it to the GitHub repository.
 
 
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2218407878]Last updated 2023-07-15
+
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2218407878]![Image](https://img.shields.io/github/v/release/emipa606/MilkableColonists?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
+

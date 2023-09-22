@@ -1,5 +1,8 @@
 # Changelog for MilkableColonists
 
+1.4.7 - Added textures for Lact-X resistance, immunity or dependency. Thanks Osprey2!
+
+
 1.4.6 - Added support for some more mods
 
 
