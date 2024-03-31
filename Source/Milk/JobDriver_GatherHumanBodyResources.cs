@@ -25,20 +25,20 @@ public abstract class JobDriver_GatherHumanBodyResources : JobDriver
     public override bool TryMakePreToilReservations(bool errorOnFailed)
     {
         var pawn1 = pawn;
-        var target = job.GetTarget(TargetIndex.A);
+        var target = job.GetTarget(AnimalInd);
         var job1 = job;
         return pawn1.Reserve(target, job1, 1, -1, null, errorOnFailed);
     }
 
     protected override IEnumerable<Toil> MakeNewToils()
     {
-        this.FailOnDespawnedNullOrForbidden(TargetIndex.A);
-        yield return Toils_Goto.GotoThing(TargetIndex.A, PathEndMode.Touch);
+        this.FailOnDespawnedNullOrForbidden(AnimalInd);
+        yield return Toils_Goto.GotoThing(AnimalInd, PathEndMode.Touch);
         var wait = new Toil();
         wait.initAction = delegate
         {
             var actor = wait.actor;
-            var thing = (Pawn)job.GetTarget(TargetIndex.A).Thing;
+            var thing = (Pawn)job.GetTarget(AnimalInd).Thing;
             actor.pather.StopDead();
             PawnUtility.ForceWait(thing, 15000, null, true);
         };
@@ -52,7 +52,7 @@ public abstract class JobDriver_GatherHumanBodyResources : JobDriver
                 return;
             }
 
-            var comps = GetComps((Pawn)(Thing)job.GetTarget(TargetIndex.A));
+            var comps = GetComps((Pawn)(Thing)job.GetTarget(AnimalInd));
             foreach (var comp in comps)
             {
                 comp.Gathered(pawn);
@@ -62,17 +62,17 @@ public abstract class JobDriver_GatherHumanBodyResources : JobDriver
         };
         wait.AddFinishAction(delegate
         {
-            var thing = (Pawn)job.GetTarget(TargetIndex.A).Thing;
+            var thing = (Pawn)job.GetTarget(AnimalInd).Thing;
             if (thing != null && thing.CurJobDef == JobDefOf.Wait_MaintainPosture)
             {
                 thing.jobs.EndCurrentJob(JobCondition.InterruptForced);
             }
         });
-        wait.FailOnDespawnedOrNull(TargetIndex.A);
-        wait.FailOnCannotTouch(TargetIndex.A, PathEndMode.Touch);
+        wait.FailOnDespawnedOrNull(AnimalInd);
+        wait.FailOnCannotTouch(AnimalInd, PathEndMode.Touch);
         wait.AddEndCondition(delegate
         {
-            var comps = GetComps((Pawn)(Thing)job.GetTarget(TargetIndex.A));
+            var comps = GetComps((Pawn)(Thing)job.GetTarget(AnimalInd));
 
             foreach (var comp in comps)
             {
@@ -85,7 +85,7 @@ public abstract class JobDriver_GatherHumanBodyResources : JobDriver
             return JobCondition.Incompletable;
         });
         wait.defaultCompleteMode = ToilCompleteMode.Never;
-        wait.WithProgressBar(TargetIndex.A, () => gatherProgress / WorkTotal);
+        wait.WithProgressBar(AnimalInd, () => gatherProgress / WorkTotal);
         wait.activeSkill = () => SkillDefOf.Animals;
         yield return wait;
     }

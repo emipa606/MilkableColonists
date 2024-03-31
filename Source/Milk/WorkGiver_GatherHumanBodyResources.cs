@@ -25,7 +25,7 @@ public abstract class WorkGiver_GatherHumanBodyResources : WorkGiver_Scanner
 
     public override bool HasJobOnThing(Pawn pawn, Thing t, bool forced = false)
     {
-        if (!(t is Pawn pawn2) || !pawn2.RaceProps.Humanlike || pawn2.Drafted || pawn2.InAggroMentalState ||
+        if (t is not Pawn pawn2 || !pawn2.RaceProps.Humanlike || pawn2.Drafted || pawn2.InAggroMentalState ||
             pawn2.IsFormingCaravan())
         {
             return false;

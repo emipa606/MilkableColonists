@@ -4,13 +4,13 @@ namespace Milk;
 
 public class CompProperties_MilkableHuman : CompProperties
 {
-    public string displayString = "MilkFullness";
+    public readonly string displayString = "MilkFullness";
 
-    public float milkAmount = 1f;
+    public readonly float milkAmount = 1f;
+
+    public readonly bool milkFemaleOnly = true;
 
     public ThingDef milkDef;
-
-    public bool milkFemaleOnly = true;
 
     public float milkIntervalDays;
 
