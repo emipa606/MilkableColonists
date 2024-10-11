@@ -1,5 +1,8 @@
 # Changelog for MilkableColonists
 
+1.5.1 - Fixed compatibility with [url=https://steamcommunity.com/workshop/filedetails/?id=2549028560]Moosesian race[/url]
+
+
 1.5.0 - Mod updated for 1.5 and passed autotests
 
 

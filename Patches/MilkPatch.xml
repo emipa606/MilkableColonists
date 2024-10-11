@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <Operation Class="PatchOperationSequence">
     <success>Always</success>
@@ -140,6 +140,7 @@
 						 defName="MagiaPlant_Pawn" or
 						 defName="Forgotty_Pawn" or
 						 defName="Maddy_Pawn" or
+						 defName="Moosesian" or
 						 @Name="BasePony" or
 						 @Name="BaseKiri" or
 						 @Name="BaseGrif" or
@@ -269,6 +270,7 @@
 						 defName="MagiaPlant_Pawn" or
 						 defName="Forgotty_Pawn" or
 						 defName="Maddy_Pawn" or
+						 defName="Moosesian" or
 						 @ParentName="BasePony" or
 						 @ParentName="BaseKiri" or
 						 @ParentName="BaseGrif" or
@@ -398,6 +400,7 @@
 						 defName="MagiaPlant_Pawn" or
 						 defName="Forgotty_Pawn" or
 						 defName="Maddy_Pawn" or
+						 defName="Moosesian" or
 						 @ParentName="BasePony" or
 						 @ParentName="BaseKiri" or
 						 @ParentName="BaseGrif" or
