@@ -141,6 +141,7 @@
 						 defName="Forgotty_Pawn" or
 						 defName="Maddy_Pawn" or
 						 defName="Moosesian" or
+						 defName="Milira_Race" or
 						 @Name="BasePony" or
 						 @Name="BaseKiri" or
 						 @Name="BaseGrif" or
@@ -271,6 +272,7 @@
 						 defName="Forgotty_Pawn" or
 						 defName="Maddy_Pawn" or
 						 defName="Moosesian" or
+						 defName="Milira_Race" or
 						 @ParentName="BasePony" or
 						 @ParentName="BaseKiri" or
 						 @ParentName="BaseGrif" or
@@ -401,6 +403,7 @@
 						 defName="Forgotty_Pawn" or
 						 defName="Maddy_Pawn" or
 						 defName="Moosesian" or
+						 defName="Milira_Race" or
 						 @ParentName="BasePony" or
 						 @ParentName="BaseKiri" or
 						 @ParentName="BaseGrif" or

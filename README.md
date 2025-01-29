@@ -23,6 +23,7 @@ Added races
 - Forgotty the Forgotten Cyborg race
 - Maddy the Wears Madness race
 - The Human Hive 3
+- Moosesian race
 
 
 

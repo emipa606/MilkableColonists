@@ -1,5 +1,8 @@
 # Changelog for MilkableColonists
 
+1.5.2 - Added compatibility with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3256974620]Milira Race[/url]
+
+
 1.5.1 - Fixed compatibility with [url=https://steamcommunity.com/workshop/filedetails/?id=2549028560]Moosesian race[/url]
 
 

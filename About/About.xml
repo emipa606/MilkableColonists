@@ -43,6 +43,7 @@ Added races
 [*]Forgotty the Forgotten Cyborg race
 [*]Maddy the Wears Madness race
 [*]The Human Hive 3
+[*]Moosesian race
 [/list]
 
 [img]https://i.imgur.com/pufA0kM.png[/img]
@@ -150,5 +151,5 @@ I have now figured out how to add conditional patches to allow for items from ot
 [/list] 
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2218407878][img]https://img.shields.io/github/v/release/emipa606/MilkableColonists?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags:  genetic manipulation,  xeno-ecology, mutations,  alien races,  drug effects</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.5.1</modVersion>
+  <modVersion IgnoreIfNoMatchingField="True">1.5.2</modVersion>
 </ModMetaData>
