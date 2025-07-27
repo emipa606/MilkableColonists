@@ -1,5 +1,8 @@
 # Changelog for MilkableColonists
 
+1.6.0 - Mod updated for 1.6 and passed autotests
+
+
 1.5.2 - Added compatibility with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3256974620]Milira Race[/url]
 
 

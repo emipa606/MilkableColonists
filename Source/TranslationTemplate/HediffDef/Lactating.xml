@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: lactating(Drug) -->
+  <Lactating_Drug.label>lactating(Drug)</Lactating_Drug.label>
+  <!-- EN: lactating(Drug) -->
+  <Lactating_Drug.description>lactating(Drug)</Lactating_Drug.description>
+  <!-- EN: lactating(Natural) -->
+  <Lactating_Natural.label>lactating(Natural)</Lactating_Natural.label>
+  <!-- EN: lactating(Natural) -->
+  <Lactating_Natural.description>lactating(Natural)</Lactating_Natural.description>
+  <!-- EN: lactating(Permanent) -->
+  <Lactating_Permanent.label>lactating(Permanent)</Lactating_Permanent.label>
+  <!-- EN: lactating(Permanent) -->
+  <Lactating_Permanent.description>lactating(Permanent)</Lactating_Permanent.description>
+</LanguageData>

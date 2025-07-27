@@ -7,7 +7,7 @@ namespace Milk;
 
 public abstract class JobDriver_GatherHumanBodyResources : JobDriver
 {
-    protected const TargetIndex AnimalInd = TargetIndex.A;
+    private const TargetIndex AnimalInd = TargetIndex.A;
 
     private float gatherProgress;
 

@@ -2,7 +2,7 @@
   "Continued": true,
   "CanAdd": "0",
   "CanRemove": "2",
-  "PreviewVersion": "1.5",
+  "PreviewVersion": "1.6",
   "SocialImageSet": true,
   "SearchTags": [
     " genetic manipulation",
@@ -11,5 +11,11 @@
     " alien races",
     " drug effects"
   ],
-  "LastXmlCleaning": "2025-01-29T18:56:17.6885993+01:00"
+  "LastXmlCleaning": "2025-07-27T20:24:01.6238484+02:00",
+  "Patches": true,
+  "Defs": true,
+  "Assemblies": true,
+  "LinesOfCode": 18371,
+  "LinesOfXML": 34399,
+  "CodeBaseSize": 75
 }

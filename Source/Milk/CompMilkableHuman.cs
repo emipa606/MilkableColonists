@@ -12,7 +12,7 @@ public class CompMilkableHuman : HumanCompHasGatherableBodyResource
 
     protected override string SaveKey => $"milkFullness{Props.displayString}";
 
-    public CompProperties_MilkableHuman Props => (CompProperties_MilkableHuman)props;
+    private CompProperties_MilkableHuman Props => (CompProperties_MilkableHuman)props;
 
     protected override bool Active
     {

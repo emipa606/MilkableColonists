@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: lact-X addiction -->
+  <Lact-XAddiction.label>lact-X addiction</Lact-XAddiction.label>
+  <!-- EN: lact-X addiction -->
+  <Lact-XAddiction.description>lact-X addiction</Lact-XAddiction.description>
+  <!-- EN: withdrawal -->
+  <Lact-XAddiction.stages.withdrawal.label>withdrawal</Lact-XAddiction.stages.withdrawal.label>
+  <!-- EN: high on lact-X -->
+  <Lact-XHigh.label>high on lact-X</Lact-XHigh.label>
+  <!-- EN: high on lact-X -->
+  <Lact-XHigh.description>high on lact-X</Lact-XHigh.description>
+  <!-- EN: a lact-X high -->
+  <Lact-XHigh.labelNoun>a lact-X high</Lact-XHigh.labelNoun>
+  <!-- EN: lact-X tolerance -->
+  <Lact-XTolerance.label>lact-X tolerance</Lact-XTolerance.label>
+  <!-- EN: lact-X tolerance -->
+  <Lact-XTolerance.description>lact-X tolerance</Lact-XTolerance.description>
+  <!-- EN: small -->
+  <Lact-XTolerance.stages.small.label>small</Lact-XTolerance.stages.small.label>
+  <!-- EN: large -->
+  <Lact-XTolerance.stages.large.label>large</Lact-XTolerance.stages.large.label>
+  <!-- EN: massive -->
+  <Lact-XTolerance.stages.massive.label>massive</Lact-XTolerance.stages.massive.label>
+</LanguageData>

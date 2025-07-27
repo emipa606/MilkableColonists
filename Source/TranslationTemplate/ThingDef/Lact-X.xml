@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: lact-MAX -->
+  <Lact-MAX.label>lact-MAX</Lact-MAX.label>
+  <!-- EN: A Drug that induces lactation permanently, it causes addiction to Lact-X. \n \n No lactation effect on animals. -->
+  <Lact-MAX.description>A Drug that induces lactation permanently, it causes addiction to Lact-X. 
+ 
+ No lactation effect on animals.</Lact-MAX.description>
+  <!-- EN: Inject {0} -->
+  <Lact-MAX.ingestible.ingestCommandString>Inject {0}</Lact-MAX.ingestible.ingestCommandString>
+  <!-- EN: Injecting {0}. -->
+  <Lact-MAX.ingestible.ingestReportString>Injecting {0}.</Lact-MAX.ingestible.ingestReportString>
+  <!-- EN: lact-X -->
+  <Lact-X.label>lact-X</Lact-X.label>
+  <!-- EN: A Drug that induces lactation, it also has an addictive euphoric affect. \n \n Take every 3 days for uninterrupted flow. \n \n No lactation effect on animals. -->
+  <Lact-X.description>A Drug that induces lactation, it also has an addictive euphoric affect. 
+ 
+ Take every 3 days for uninterrupted flow. 
+ 
+ No lactation effect on animals.</Lact-X.description>
+  <!-- EN: Inject {0} -->
+  <Lact-X.ingestible.ingestCommandString>Inject {0}</Lact-X.ingestible.ingestCommandString>
+  <!-- EN: Injecting {0}. -->
+  <Lact-X.ingestible.ingestReportString>Injecting {0}.</Lact-X.ingestible.ingestReportString>
+</LanguageData>

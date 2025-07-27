@@ -5,11 +5,10 @@ using Verse.AI;
 
 namespace Milk;
 
-[HarmonyPatch(typeof(HaulAIUtility), "PawnCanAutomaticallyHaulFast")]
-public static class HaulAIUtility_PawnCanAutomaticallyHaulFast_Patch
+[HarmonyPatch(typeof(HaulAIUtility), nameof(HaulAIUtility.PawnCanAutomaticallyHaulFast))]
+public static class HaulAIUtility_PawnCanAutomaticallyHaulFast
 {
-    [HarmonyPostfix]
-    public static void isMilk(ref Pawn p, ref Thing t, ref bool forced, ref bool __result)
+    public static void Postfix(ref Pawn p, ref Thing t, ref bool forced, ref bool __result)
     {
         LocalTargetInfo target = t;
         if (p.CanReserve(target, 1, -1, null, forced) &&

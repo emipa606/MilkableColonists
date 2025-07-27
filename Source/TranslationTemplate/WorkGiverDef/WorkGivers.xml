@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: milk humanlike -->
+  <MilkHumanlike.label>milk humanlike</MilkHumanlike.label>
+  <!-- EN: milking -->
+  <MilkHumanlike.gerund>milking</MilkHumanlike.gerund>
+  <!-- EN: milk -->
+  <MilkHumanlike.verb>milk</MilkHumanlike.verb>
+</LanguageData>
